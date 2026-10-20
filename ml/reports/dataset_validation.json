@@ -1,0 +1,103 @@
+{
+  "dataset": "Autism Facial Recognition Dataset_Augmented",
+  "total_images": 7600,
+  "total_size_mb": 198.2,
+  "classes": [
+    "anger",
+    "fear",
+    "joy",
+    "Natural",
+    "sadness",
+    "surprise"
+  ],
+  "splits": [
+    "train",
+    "test"
+  ],
+  "per_split_class_counts": {
+    "train": {
+      "anger": 550,
+      "fear": 240,
+      "joy": 2800,
+      "Natural": 380,
+      "sadness": 1600,
+      "surprise": 500
+    },
+    "test": {
+      "anger": 140,
+      "fear": 60,
+      "joy": 700,
+      "Natural": 100,
+      "sadness": 400,
+      "surprise": 130
+    }
+  },
+  "class_ratios_min_max": {
+    "largest": {
+      "class": "joy",
+      "count": 3500
+    },
+    "smallest": {
+      "class": "fear",
+      "count": 300
+    },
+    "ratio": 11.67
+  },
+  "corrupt_files": [],
+  "corrupt_count": 0,
+  "unreadable_files": 0,
+  "duplicates_within_class": {
+    "anger": 0,
+    "fear": 0,
+    "joy": 0,
+    "Natural": 0,
+    "sadness": 0,
+    "surprise": 1
+  },
+  "duplicate_examples_sample": [
+    [
+      "6332ba67af13107dc075734c5b6de58f",
+      "surprise",
+      "0114_aug_8.jpg",
+      [
+        "train",
+        "surprise",
+        "0114_aug_5.jpg"
+      ]
+    ],
+    [
+      "fd8c56f63635ba3627ef419bec3e039d",
+      "surprise",
+      "1261_aug_2.jpg",
+      [
+        "train",
+        "sadness",
+        "1261_aug_5.jpg"
+      ]
+    ]
+  ],
+  "duplicate_pairs_count": 2,
+  "mode_counts": {},
+  "size_px": {
+    "min": [
+      224,
+      224
+    ],
+    "max": [
+      224,
+      224
+    ],
+    "median": [
+      224,
+      224
+    ],
+    "mean": [
+      224.0,
+      224.0
+    ],
+    "std": [
+      0.0,
+      0.0
+    ]
+  }
+}

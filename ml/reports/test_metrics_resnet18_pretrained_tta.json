@@ -1,0 +1,99 @@
+{
+  "model_name": "resnet18_pretrained",
+  "mode": "test-time-augmentation",
+  "test_sample_total": 1530,
+  "accuracy": 0.5392,
+  "precision_macro": 0.3034,
+  "recall_macro": 0.2458,
+  "f1_macro": 0.244,
+  "f1_weighted": 0.5154,
+  "per_class": {
+    "anger": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 140
+    },
+    "fear": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 60
+    },
+    "joy": {
+      "precision": 0.8546,
+      "recall": 0.9071,
+      "f1": 0.8801,
+      "support": 700
+    },
+    "Natural": {
+      "precision": 0.6111,
+      "recall": 0.11,
+      "f1": 0.1864,
+      "support": 100
+    },
+    "sadness": {
+      "precision": 0.3308,
+      "recall": 0.4425,
+      "f1": 0.3786,
+      "support": 400
+    },
+    "surprise": {
+      "precision": 0.0238,
+      "recall": 0.0154,
+      "f1": 0.0187,
+      "support": 130
+    }
+  },
+  "confusion_matrix": [
+    [
+      0,
+      0,
+      12,
+      0,
+      127,
+      1
+    ],
+    [
+      1,
+      0,
+      8,
+      0,
+      37,
+      14
+    ],
+    [
+      1,
+      0,
+      635,
+      0,
+      52,
+      12
+    ],
+    [
+      5,
+      0,
+      42,
+      11,
+      39,
+      3
+    ],
+    [
+      96,
+      45,
+      26,
+      4,
+      177,
+      52
+    ],
+    [
+      2,
+      0,
+      20,
+      3,
+      103,
+      2
+    ]
+  ],
+  "best_val_macro_f1": 0.8377599666226424
+}
