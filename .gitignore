@@ -1,0 +1,77 @@
+# Environment variables & secrets
+.env
+*.env
+*.env.*
+!.env.example
+!.env.*.example
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+*.local
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# SQLite / Local Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Backend runtime uploads (preserves folder structure via .gitkeep)
+backend/uploads/**
+!backend/uploads/
+!backend/uploads/**/
+!backend/uploads/**/.gitkeep
+
+# ML Intermediate Training Caches & History Checkpoints (>100MB files exceeding GitHub limits)
+ml/_cache/*
+!ml/_cache/.gitkeep
+ml/_tmp_history/*
+!ml/_tmp_history/.gitkeep
+
+# IDE and OS files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

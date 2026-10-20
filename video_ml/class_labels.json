@@ -1,0 +1,22 @@
+{
+  "classes": [
+    "arm_flapping",
+    "head_banging",
+    "spinning"
+  ],
+  "class_to_idx": {
+    "arm_flapping": 0,
+    "head_banging": 1,
+    "spinning": 2
+  },
+  "idx_to_class": {
+    "0": "arm_flapping",
+    "1": "head_banging",
+    "2": "spinning"
+  },
+  "class_names": {
+    "arm_flapping": "Arm Flapping",
+    "head_banging": "Head Banging",
+    "spinning": "Spinning"
+  }
+}

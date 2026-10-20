@@ -1,0 +1,31 @@
+{
+  "metrics": {
+    "accuracy": 0.0,
+    "macro_precision": 0.0,
+    "macro_recall": 0.0,
+    "macro_f1": 0.0,
+    "weighted_precision": 0.0,
+    "weighted_recall": 0.0,
+    "weighted_f1": 0.0,
+    "video_targets": [
+      0
+    ],
+    "video_predictions": [
+      1
+    ],
+    "video_names": [
+      "Autistic Son (Aspergers) Spinning at the store. - YouTube and 6 more pages - Personal - Microsoft\u200b Edge 2026-09-17 12-10-44.mp4"
+    ]
+  },
+  "dataset_summary": {
+    "total_videos": 6,
+    "train_videos": 3,
+    "val_videos": 3,
+    "classes": [
+      "arm_flapping",
+      "head_banging",
+      "spinning"
+    ]
+  },
+  "model_saved": "C:\\Users\\sahan\\OneDrive\\Desktop\\Aautism\\video_ml\\video_model.pth"
+}

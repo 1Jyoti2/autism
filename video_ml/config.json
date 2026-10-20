@@ -1,0 +1,16 @@
+{
+  "model_architecture": "MobileNetV3-Small + Temporal Pooling MLP",
+  "frame_size": [
+    224,
+    224
+  ],
+  "clip_length": 16,
+  "sample_stride": 4,
+  "num_classes": 3,
+  "classes": [
+    "arm_flapping",
+    "head_banging",
+    "spinning"
+  ],
+  "disclaimer": "PROTOTYPE MODEL: Trained on a small dataset (6 videos). Intended for prototype demonstration only, not clinical diagnosis."
+}
